@@ -8,7 +8,7 @@ class Player{
     private static ArrayList<String> nameList = new ArrayList<String>();
     private String name;
 
-    //Construction
+    //Constructor
     Player(String name){
         this.name = name;
         Player.numberOfLayer++;
